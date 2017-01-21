@@ -25,6 +25,8 @@ defmodule HedwigGiphy.Mixfile do
     [
       {:hedwig, "~> 1.0"},
       {:httpoison, "~> 0.11"},
+      {:ex_doc, "~> 0.13", only: :dev},
+      {:earmark, "~> 1.0.1", only: :dev},
       {:credo, "~> 0.5", only: [:dev, :test]},
       {:mix_test_watch, "~> 0.2", only: :dev}
     ]
@@ -32,7 +34,7 @@ defmodule HedwigGiphy.Mixfile do
 
   defp description do
     """
-    Responds to requests with GIFs from Giphy.
+    Respond with an appropriate GIF from Giphy.
     """
   end
 
@@ -41,7 +43,8 @@ defmodule HedwigGiphy.Mixfile do
       maintainers: ["Steve Grossi"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/stevegrossi/hedwig_giphy"
+        "GitHub" => "https://github.com/stevegrossi/hedwig_giphy",
+        "Docs" => "https://hexdocs.pm/hedwig_giphy/"
       }
     ]
   end

@@ -1,4 +1,4 @@
-# Hedwig Gif Me
+# Hedwig Giphy
 
 [![Hex.pm](https://img.shields.io/hexpm/v/hedwig_giphy.svg)](https://hex.pm/packages/hedwig_giphy)
 
