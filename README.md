@@ -1,6 +1,7 @@
 # Hedwig Giphy
 
 [![Hex.pm](https://img.shields.io/hexpm/v/hedwig_giphy.svg)](https://hex.pm/packages/hedwig_giphy)
+![Codeship Status for stevegrossi/hedwig_giphy](https://img.shields.io/codeship/bf6ea900-c23e-0134-01b0-22c030d3a647.svg)
 
 A [Hedwig](https://github.com/hedwig-im/hedwig) responder that returns an appropriate GIF from the Giphy API.
 
